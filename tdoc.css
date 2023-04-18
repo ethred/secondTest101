@@ -1,0 +1,91 @@
+@media only screen and (max-width: 600px) {
+    #main-doc{
+      position: absolute;
+      margin: 0;
+    }
+  
+    #navbar{
+      position: fixed;
+      top: 0;
+      border-right: none;
+      height: 50%;
+      width: auto;
+  
+    }
+  }
+  
+  
+  
+  main{
+    font-family: "Nunito sans", tahoma;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 10px;
+    position: absolute;
+    margin-left: 30%;
+  }
+  
+  section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0; 
+  }
+  
+  header{
+    font-family: "Nanum Gothic", tahoma;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 5%;
+  }
+  
+  p{
+    margin-left: 8%;
+  }
+  
+  code {
+  display: block;
+  margin-left: 0;
+  overflow: wrap;
+  background-color: GhostWhite;
+  border-radius: 7px;
+  padding: 12px;
+  }
+  
+  a{
+    margin: 10%;
+  }
+  
+  #navbar{
+    height: 100%;
+    width: 30%;
+    border-right: 3px solid #a3a0a0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  nav  ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    height: 100%;
+    padding: 0;
+    
+  }
+  
+  nav > ul > li{
+    border-top: 2px solid #8f8f8f;
+    height: 8%;
+    margin: 10px;
+    width: 100%;
+   
+  }
+  
+  li > a {
+    text-decoration: none;
+    color: black; 
+  }
